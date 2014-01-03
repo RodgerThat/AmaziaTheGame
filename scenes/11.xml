@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="222" extheight="632" extwidth="1056" extx="-16" exty="-16" format="2.1" gravx="-0.0" gravy="0.0" height="600" id="11" name="Title" revision="" savecount="0" tiled="1" tileh="16" tilew="16" type="standard" width="1024">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <grad-bg b1="51" b2="0" g1="51" g2="0" r1="51" r2="0"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors/>
+    <snippets/>
+    <terrain/>
+</scene>
