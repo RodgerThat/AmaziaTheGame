@@ -131,6 +131,10 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_477" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="224" language="" name="ActorEvents_477" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_432" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="220" language="" name="ActorEvents_432" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
@@ -140,6 +144,22 @@
         <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="222" language="" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_475" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="223" language="" name="ActorEvents_475" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_216_216_OneWayPlatform" desc="Attach this to your platform Actor to allow passing through the bottom." description="Attach this to your platform Actor to allow passing through the bottom." design="true" drawOrder="0" id="216" language="" name="One Way Platform" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actortype default="" desc="Select the player that will be interacting with the platforms" dropdown="" fullname="Player Actor Type" hidden="false" id="2" name="_PlayerActorType" order="1"/>
+        <actor default="" desc="" dropdown="" fullname="Player Actor" hidden="true" id="3" name="_PlayerActor" order="6"/>
+        <number default="0" desc="" dropdown="" fullname="Player Feet Position" hidden="true" id="4" name="_PlayerFeetPosition" order="7"/>
+        <animation default="" desc="Animation to use when the platform is solid.  Be sure to specify a collision group that collides with your player actor." dropdown="" fullname="Platform Solid Animation" hidden="false" id="5" name="_PlatformSolidAnimation" order="4"/>
+        <animation default="" desc="Animation to use when the platform can be passed through.  If a collision group is specified, make sure it is not set up to collide with the player actor." dropdown="" fullname="Platform Pass Through Animation" hidden="false" id="6" name="_PlatformPassThroughAnimation" order="5"/>
+        <boolean default="false" desc="" dropdown="" fullname="Colliding?" hidden="true" id="11" name="_Colliding" order="8"/>
+        <boolean default="false" desc="" dropdown="" fullname="Collided?" hidden="true" id="12" name="_Collided" order="9"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
@@ -160,18 +180,6 @@
         <blocks>
             <receiver blockID="211" id="1"/>
         </blocks>
-        <events/>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_216_216_OneWayPlatform" desc="Attach this to your platform Actor to allow passing through the bottom." description="Attach this to your platform Actor to allow passing through the bottom." design="true" drawOrder="0" id="216" language="" name="One Way Platform" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <actortype default="" desc="Select the player that will be interacting with the platforms" dropdown="" fullname="Player Actor Type" hidden="false" id="2" name="_PlayerActorType" order="1"/>
-        <actor default="" desc="" dropdown="" fullname="Player Actor" hidden="true" id="3" name="_PlayerActor" order="6"/>
-        <number default="0" desc="" dropdown="" fullname="Player Feet Position" hidden="true" id="4" name="_PlayerFeetPosition" order="7"/>
-        <animation default="" desc="Animation to use when the platform is solid.  Be sure to specify a collision group that collides with your player actor." dropdown="" fullname="Platform Solid Animation" hidden="false" id="5" name="_PlatformSolidAnimation" order="4"/>
-        <animation default="" desc="Animation to use when the platform can be passed through.  If a collision group is specified, make sure it is not set up to collide with the player actor." dropdown="" fullname="Platform Pass Through Animation" hidden="false" id="6" name="_PlatformPassThroughAnimation" order="5"/>
-        <boolean default="false" desc="" dropdown="" fullname="Colliding?" hidden="true" id="11" name="_Colliding" order="8"/>
-        <boolean default="false" desc="" dropdown="" fullname="Collided?" hidden="true" id="12" name="_Collided" order="9"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <blocks/>
         <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_114_114_Falling" desc="This Behavior is responsible for detecting when the player is falling, and playing the proper animation." description="This Behavior is responsible for detecting when the player is falling, and playing the proper animation." design="true" drawOrder="0" id="114" language="" name="Falling" oid="-1" package="" scenespecific="false" shared="false" type="actor">

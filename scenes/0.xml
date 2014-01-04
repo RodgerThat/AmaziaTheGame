@@ -9,7 +9,9 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="477" name="Title Logo 1" sx="1.0" sy="1.0" x="199" y="87" z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
 </scene>
